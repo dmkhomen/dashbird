@@ -56,25 +56,26 @@ const App = () => {
             <div className="fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full">
               <Navbar />
             </div>
-          </div>
-          <div>
-            <Routes>
-              {/* dashboard */}
-              <Route path="/" element={<Ecommerce />} />
-              <Route path="/ecommerce" element={<Ecommerce />} />
-              {/* pages */}
-              <Route path="/orders" element={<Orders />} />
-              <Route path="/employees" element={<Employees />} />
-              <Route path="/customers" element={<Customers />} />
-              {/* apps */}
-              <Route path="/kanban" element={<Kanban />} />
-              <Route path="/calendar" element={<Calendar />} />
-              {/* charts */}
-              <Route path="/line" element={<Line />} />
-              <Route path="/pie" element={<Pie />} />
-              <Route path="/pyramid" element={<Pyramid />} />
-              <Route path="/color-mapping" element={<ColorMapping />} />
-            </Routes>
+
+            <div>
+              <Routes>
+                {/* dashboard */}
+                <Route path="/" element={<Ecommerce />} />
+                <Route path="/ecommerce" element={<Ecommerce />} />
+                {/* pages */}
+                <Route path="/orders" element={<Orders />} />
+                <Route path="/employees" element={<Employees />} />
+                <Route path="/customers" element={<Customers />} />
+                {/* apps */}
+                <Route path="/kanban" element={<Kanban />} />
+                <Route path="/calendar" element={<Calendar />} />
+                {/* charts */}
+                <Route path="/line" element={<Line />} />
+                <Route path="/pie" element={<Pie />} />
+                <Route path="/pyramid" element={<Pyramid />} />
+                <Route path="/color-mapping" element={<ColorMapping />} />
+              </Routes>
+            </div>
           </div>
         </div>
       </BrowserRouter>
