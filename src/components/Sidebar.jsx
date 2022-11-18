@@ -18,7 +18,7 @@ const Sidebar = () => {
   };
 
   const activeLink =
-    "flex items-center gap-5 p-2 rounded  text-white bg-slate-500 text-md mb-2";
+    "flex items-center gap-5 p-2 rounded  text-white  text-md mb-2";
   const normalLink =
     "flex items-center gap-5 p-2 rounded text-md text-slate-700 dark:text-slate-200 dark:hover:text-black hover:bg-light-gray mb-2";
 
